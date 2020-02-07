@@ -23,3 +23,4 @@ erl_crash.dump
 my_app-*.tar
 
 .elixir_ls/  
+native/mynif/target/  

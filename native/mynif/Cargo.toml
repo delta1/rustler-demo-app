@@ -1,0 +1,13 @@
+[package]
+name = "mynif"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "mynif"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.21.0"

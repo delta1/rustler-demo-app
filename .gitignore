@@ -24,3 +24,4 @@ my_app-*.tar
 
 .elixir_ls/  
 native/mynif/target/  
+*.dll 

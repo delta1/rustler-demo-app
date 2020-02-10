@@ -22,4 +22,12 @@ fn generate(num: i64, upper: i64) -> Vec<i64> {
     }).collect()
 }
 
-rustler::init!("Elixir.MyNif", [add, generate]);
+#[rustler::nif]
+fn sort(ints: Vec<i64>) -> Vec<i64> {
+    let mut copy = ints.clone();
+    copy.sort();
+
+    copy
+}
+
+rustler::init!("Elixir.MyNif", [add, generate, sort]);

@@ -12,4 +12,9 @@ defmodule MyNifTest do
     assert Enum.min(ints) >= 1
     assert Enum.max(ints) <= 100
   end
+
+  test "sorts array using NIF" do
+    ints = [3,1,2]
+    assert MyNif.sort(ints) == [1,2,3]
+  end
 end

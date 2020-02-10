@@ -15,4 +15,9 @@ defmodule MyApp do
   def hello do
     :world
   end
+
+  def generate(num, upper) do
+    1..num
+    |> Enum.map(fn _ -> :rand.uniform(upper) end)
+  end
 end

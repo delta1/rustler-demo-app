@@ -10,4 +10,5 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = { git = "https://github.com/rusterlium/rustler", commit = "5b22592d"}
+rustler = { git = "https://github.com/rusterlium/rustler", rev = "5b22592d"}
+rand = "0.7.3"

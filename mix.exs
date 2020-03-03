@@ -23,7 +23,7 @@ defmodule MyApp.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler, github: "rusterlium/rustler", ref: "5b22592d", sparse: "rustler_mix"}
+      {:rustler, github: "rusterlium/rustler", ref: "e343b8ca", sparse: "rustler_mix"}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]

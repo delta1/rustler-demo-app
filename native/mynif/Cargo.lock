@@ -122,8 +122,8 @@ dependencies = [
 
 [[package]]
 name = "rustler"
-version = "0.21.0"
-source = "git+https://github.com/rusterlium/rustler?rev=5b22592d#5b22592dea2945bdb24ffc5f488b99008c03eda9"
+version = "0.22.0-rc.0"
+source = "git+https://github.com/rusterlium/rustler?rev=e343b8ca#e343b8cacdea36889015f43da629a2ea8e337718"
 dependencies = [
  "lazy_static",
  "rustler_codegen",
@@ -132,8 +132,8 @@ dependencies = [
 
 [[package]]
 name = "rustler_codegen"
-version = "0.21.0"
-source = "git+https://github.com/rusterlium/rustler?rev=5b22592d#5b22592dea2945bdb24ffc5f488b99008c03eda9"
+version = "0.22.0-rc.0"
+source = "git+https://github.com/rusterlium/rustler?rev=e343b8ca#e343b8cacdea36889015f43da629a2ea8e337718"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -143,8 +143,8 @@ dependencies = [
 
 [[package]]
 name = "rustler_sys"
-version = "2.0.0"
-source = "git+https://github.com/rusterlium/rustler?rev=5b22592d#5b22592dea2945bdb24ffc5f488b99008c03eda9"
+version = "2.1.0"
+source = "git+https://github.com/rusterlium/rustler?rev=e343b8ca#e343b8cacdea36889015f43da629a2ea8e337718"
 dependencies = [
  "unreachable",
 ]
